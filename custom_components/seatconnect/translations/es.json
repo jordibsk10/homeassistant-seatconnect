@@ -12,19 +12,19 @@
       },
       "vehicle": {
         "title": "Ajustes del vehículo",
-        "description": "The following vehicle(s) was found. Please select the vehicle you wish to monitor and it's settings.\n\nThe S-PIN is only required for some specific operations such as lock/unlock and operations that activates the combustion engine heating.\nYou can leave it blank.",
+        "description": "El siguiente vehículo(s) fueron encontrado(s). Por favor, selecciona el vehículo y los ajustes que quieras monitorizar.\n\nEl S-PIN sólo es necesario para algunas operaciones concretas como bloquear/desbloquear y operaciones que activan el calentamiento del motor de combustión.\nPuedes dejarlo en blanco.",
         "data": {
           "vehicle": "Número VIN",
           "spin": "S-PIN",
-          "mutable": "Allow interactions with car (actions). Uncheck to make the car 'read only'."
+          "mutable": "Permite interacciones con el vehículo (acciones). Desmarca para que el vehículo sea 'solo lectura'."
         }
       },
       "monitoring": {
-        "title": "Monitoring Settings",
-        "description": "Specify additional monitoring settings.",
+        "title": "Monitorizando Ajustes",
+        "description": "Específica ajustes adicionales a monitorizar.",
         "data": {
-          "resources": "Resources to monitor.",
-          "convert": "Select distance/unit conversions.",
+          "resources": "Elementos a monitorizar.",
+          "convert": "Selecciona la conversión de distancia/unidades.",
           "update_interval": "Poll frequency (minutes).",
           "debug": "Full API debug logging (requires debug logging enabled in configuration.yaml)"
         }
@@ -32,8 +32,8 @@
       "reauth_confirm": {
         "description": "Re-authenticate with your Seat Connect account.\nMake sure to accept any new EULA in the Seat Connect portal (https://my.seat/portal/) before proceeding. ",
         "data": {
-          "username": "Email",
-          "password": "Password"
+          "username": "Correo electrónico",
+          "password": "Contraseña"
         }
       }
     },
