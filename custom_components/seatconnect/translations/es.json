@@ -25,12 +25,12 @@
         "data": {
           "resources": "Elementos a monitorizar.",
           "convert": "Selecciona la conversión de distancia/unidades.",
-          "update_interval": "Poll frequency (minutes).",
-          "debug": "Full API debug logging (requires debug logging enabled in configuration.yaml)"
+          "update_interval": "Frequencia de actualización (minutos).",
+          "debug": "Registro de depuración completo de API (requiere que el registro de depuración este activado en configuration.yaml)"
         }
       },
       "reauth_confirm": {
-        "description": "Re-authenticate with your Seat Connect account.\nMake sure to accept any new EULA in the Seat Connect portal (https://my.seat/portal/) before proceeding. ",
+        "description": "Vuelve a autenticarte con tu cuenta Seat Connect.\nCerciórate de aceptar cualquier nuevo EULA en el portal Seat Connect (https://my.seat/portal/) antes de proceder. ",
         "data": {
           "username": "Correo electrónico",
           "password": "Contraseña"
@@ -38,31 +38,31 @@
       }
     },
     "abort": {
-      "already_configured": "Car with this VIN is already configured",
-      "reauth_successful": "Re-authentication was successful"
+      "already_configured": "El vehículo con este VIN ya está configurado",
+      "reauth_successful": "La re-autenticación fue satisfactoria"
     },
     "error": {
-      "cannot_connect": "Could not login to Seat Connect, please check your credentials and verify that the service is working",
-      "cannot_update": "Could not query update from Seat Connect",
+      "cannot_connect": "No se pudo iniciar sesión en Seat Connect, por favor verifica tus credenciales y verifica que el servicio está funcionando",
+      "cannot_update": "No se pudo actualzizar los datos de Seat Connect",
       "unknown": "[%key:common::config_flow::error::unknown%]"
     },
     "progress": {
-      "task_login": "Logging in to Seat Connect",
-      "task_update": "Fetching vehicles"
+      "task_login": "Iniciando sesión en Seat Connect",
+      "task_update": "Buscando vehículos"
     }
   },
   "options": {
     "step": {
       "user": {
-        "title": "Options for Seat Connect",
-        "description": "Configure settings",
+        "title": "Opciones para Seat Connect",
+        "description": "Configurar ajustes",
         "data": {
-          "update_interval": "Poll frequency (minutes)",
+          "update_interval": "Frequencia de actualización (minutos)",
           "spin": "S-PIN",
-          "mutable": "Allow interactions with car (actions). Uncheck to make the car 'read only'.",
-          "convert": "Select distance/unit conversions.",
-          "resources": "Resources to monitor.",
-          "debug": "Full API debug logging (requires debug logging enabled in configuration.yaml)"
+          "mutable": "Permite interacciones con el vehículo (acciones). Desmarca para que el vehículo sea 'solo lectura'.",
+          "convert": "Selecciona la conversión de distancia/unidades.",
+          "resources": "Elementos a monitorizar.",
+          "debug": "Registro de depuración completo de API (requiere que el registro de depuración este activado en configuration.yaml)"
         }
       }
     }
